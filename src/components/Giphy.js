@@ -1,13 +1,14 @@
-
-const Giphy = ({gif})=> {
-     console.log(gif)
-    return (
-        <div className="gif">
-<h1>More Giphy more Fun</h1>
-<h1>{gif.title}</h1>
-<h2>{gif.id}</h2>
-        </div>
-           ) 
+const Giphy = ({giphy}) => {
+        console.log(giphy)
     
-}
-export default Giphy;
+        return giphy.data ? (
+            <>
+            <h1>Merry Holidays! Enjoy this random GIF just for you. </h1>
+            <img src={giphy.data.images.downsized.url} alt={giphy.data.title}/>
+            </>
+        ) : (
+            <h1>jafile</h1>
+        )
+    }
+    
+    export default Giphy;

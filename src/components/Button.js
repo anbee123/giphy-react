@@ -1,9 +1,9 @@
-const Button = ()=> {
+
+
+const Button = ({getGiphy}) => {
     return (
-        <div className="btn">
-<h1>GIPHY</h1>
-<button>make Api call again</button>
-        </div>
+        <button onClick={getGiphy}>Random</button>  
     )
 }
+
 export default Button;
