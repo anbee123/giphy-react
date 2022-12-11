@@ -21,7 +21,7 @@ function App() {
       <h1>GIPHY APP</h1>
       <Button getGiphy={makeApiCall}/>
       <Giphy giphy={giphyData}/> { }
-      <Button getGiphy={makeApiCall}/>
+    
 
     </div>
   );

@@ -2,7 +2,7 @@
 
 const Button = ({getGiphy}) => {
     return (
-        <button onClick={getGiphy}>Random</button>  
+        <button onClick={getGiphy}>RANDOM GIF</button>  
     )
 }
 
