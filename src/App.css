@@ -1,5 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Mochiy+Pop+P+One&family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@1,300&family=Rubik+Storm&display=swap');
 .App {
   text-align: center;
   background-color: rgb(248, 211, 217);
+  color: rgb(92, 46, 71);
 }
+
+button {
+background-color:  pink; 
+}
+h1{
+  font-family: 'Mochiy Pop P One', sans-serif;;
+}
+
 
